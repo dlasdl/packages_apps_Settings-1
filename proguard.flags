@@ -13,6 +13,8 @@
     *;
 }
 
+-keep class org.cesium.config.center.**
+
 -keep class * extends com.android.settings.core.TogglePreferenceController {
     *;
 }

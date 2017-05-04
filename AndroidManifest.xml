@@ -3405,6 +3405,19 @@
                        android:value="com.android.settings.sound.MediaControlsSettings" />
         </activity>
 
+        <!-- Config Center -->
+        <activity android:name=".Settings$ConfigCenterActivity"
+            android:label="@string/config_center_title"
+            android:icon="@drawable/ic_homepage_config_center"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="31">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="org.cesium.config.center.ConfigCenter" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

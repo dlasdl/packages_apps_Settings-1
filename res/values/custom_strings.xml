@@ -15,6 +15,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Config Center -->
+    <string name="config_center_title">Radioactive Tweaks</string>
+    <string name="config_center_dashboard_summary">Face the radiation</string>
+
     <!-- CesiumOS System Updates -->
     <string name="cesium_updater_title">System Updater</string>
     <string name="cesium_updater_summary">CesiumOS System Updater</string>
