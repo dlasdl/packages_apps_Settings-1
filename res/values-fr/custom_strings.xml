@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Lecture Adaptative</string>
+    <string name="adaptive_playback_disabled_summary">Désactivé</string>
+    <string name="adaptive_playback_timeout_title">Utiliser un délai d\'attente de</string>
+    <string name="adaptive_playback_timeout_none">Aucun délai d\'attente</string>
+    <string name="adaptive_playback_timeout_none_summary">Activé (sans délai)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 secondes</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activé (30 secondes)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activé (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activé (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activé (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activé (10 minutes)</string>
+    <string name="adaptive_playback_explainer">La lecture adaptative met en pause automatiquement les médias lorsque le volume est mis en sourdine et reprend automatiquement lorsque le volume est restauré dans le délai défini.</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Débogage Rooté</string>
+    <string name="adb_enable_summary_root">Autoriser le débogage Android en tant que root</string>
+    <!-- Config Center -->
+    <string name="config_center_title">Réglages Radioactifs</string>
+    <string name="config_center_dashboard_summary">Faire face au rayonnement</string>
+    <!-- CesiumOS System Updates -->
+    <string name="cesium_updater_title">Mise à jour du système</string>
+    <string name="cesium_updater_summary">Mise à jour du système CesiumOS</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Localisez le capteur d\'empreintes digitales sur l\'avant de votre téléphone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Localisez le lecteur d\'empreintes digitales sur le côté gauche de votre téléphone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Localisez le lecteur d\'empreintes digitales sur le côté droit de votre téléphone.</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Localisez le capteur d\'empreintes digitales sur l\'avant de votre téléphone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Localisez le lecteur d\'empreintes digitales sur le côté gauche de votre appareil.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Localisez le lecteur d\'empreintes digitales sur le côté droit de votre appareil.</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Localisez le lecteur d\'empreintes digitales à l\'avant de votre tablette.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localisez le lecteur d\'empreintes digitales sur le côté gauche de votre tablette.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localisez le lecteur d\'empreintes digitales sur le côté droit de votre tablette.</string>
+    <!-- ROM version -->
+    <string name="about_device_name">Appareil</string>
+    <string name="build_date">Date de la compilation</string>
+    <string name="rom_version">Version de CesiumOS</string>
+    <string name="rom_version_default">Inconnu</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plateforme</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM totale</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Glisser pour réaliser une capture d\'écran</string>
+    <string name="three_finger_gesture_summary">Glisser vers le bas avec trois doigts pour prendre une capture d\'écran</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Son de la capture d\'écran</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Lier le volume de la sonnerie et des notifications</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Délai minimum entre les sons de notification</string>
+    <string name="app_notification_sound_timeout_summary_template">Ne pas autoriser les sons ou vibrations plus d\'une fois tous les <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Aucune restriction</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secondes</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 secondes</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Longueur de la barre des gestes</string>
+    <string name="hidden_label">Caché</string>
+    <string name="long_label">Longue</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Appuyer pour afficher les infos</string>
+    <!-- Allow fake signature -->
+    <string name="allow_signature_fake">Permettre l\'usurpation des signatures</string>
+    <string name="allow_signature_fake_summary">Permettre aux applications de contourner les systèmes de sécurité en prétendant être une application différente.</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Détection de poche</string>
+    <string name="pocket_judge_summary">Bloquer les entrées de l\'écran et des boutons quand l\'appareil est dans la poche</string>
+</resources>
