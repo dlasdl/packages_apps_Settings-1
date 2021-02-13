@@ -154,11 +154,6 @@
         android:title="@string/pocket_judge_title"
         android:summary="@string/pocket_judge_summary" />
 
-    <ListPreference
-        android:key="display_cutout_emulation"
-        android:title="@string/display_cutout_emulation"
-        settings:keywords="@string/display_cutout_emulation_keywords" />
-
     <SwitchPreference
         android:key="enable_blurs_on_windows"
         android:title="@string/enable_blurs_on_windows_title"
